@@ -8,6 +8,7 @@
 /* COMMON */
 
 /* HEADER */
+
 header {
     background-color: rgba(255,105,0,255);
     width: 100%;
@@ -129,7 +130,6 @@ p span{
     width: 30px;
     height: 30px;
     background-color: white;
-    /* padding: 2px 8px; */
     font-size: 1.4rem;
     display: flex;
     align-items: center;
@@ -194,4 +194,51 @@ p span{
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgba(26,26,26,255);
+}
+
+.container-footer {
+    height: 90px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer1 h3 {
+    color: white;
+}
+
+.footer1 ul {
+    list-style-type: none;
+}
+
+.footer1 li {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 0.8rem;
+}
+
+.footer1 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer2 h4 {
+    color: white;
+    font-size: 0.8rem;
+    padding-bottom: 5px;
+}
+
+.social {
+    color: white;
+    display: flex;
+    gap: 8px;
+    font-size: 1.2rem;
 }
