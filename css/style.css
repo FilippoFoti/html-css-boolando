@@ -8,5 +8,61 @@
 /* COMMON */
 
 /* HEADER */
+header {
+    background-color: rgba(255,105,0,255);
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav-header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.type {
+    height: 30px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.type li {
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+.type li a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 10%;
+}
+
+.icon {
+    height: 30px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.icon li {
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+.icon li a {
+    text-decoration: none;
+    color: white;
+}
 
 /* MAIN */
