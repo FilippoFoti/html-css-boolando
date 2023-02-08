@@ -10,6 +10,9 @@
 /* HEADER */
 header {
     background-color: rgba(255,105,0,255);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
 
 .container {
@@ -24,6 +27,10 @@ header {
     justify-content: space-between;
 }
 
+.type a:hover {
+    text-decoration: underline;
+}
+
 .type {
     height: 30px;
     width: 20%;
@@ -34,12 +41,13 @@ header {
 
 .type li {
     list-style-type: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .type li a {
     text-decoration: none;
     color: white;
+    font-family: sans-serif;
 }
 
 img {
@@ -66,3 +74,124 @@ img {
 }
 
 /* MAIN */
+
+.container-main {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 0;
+    /* position: relative; */
+}
+
+.card {
+    width: calc(100% / 3 - (40px / 3));
+    margin-top: 50px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.img1 {
+    width: 100%;
+    display: block;
+}
+
+.img2 {
+    width: 100%;
+    display: none;
+}
+
+.change:hover .img1 {
+    width: 100%;
+    display: none;
+}
+
+.change:hover .img2 {
+    width: 100%;
+    display: block;
+}
+
+p {
+    color: red;
+    font-size: 0.7rem;
+}
+
+p span{
+    text-decoration: line-through;
+    color: black;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    /* padding: 2px 8px; */
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.discount50 {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.sustainability {
+    position: absolute;
+    bottom: 80px;
+    left: 45px;
+    width: 80px;
+    height: 20px;
+    background-color: green;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.discount30 {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.sustainability2 {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    width: 80px;
+    height: 20px;
+    background-color: green;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
